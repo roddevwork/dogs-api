@@ -29,14 +29,13 @@ h1 {
   color: var(--yellowJs-color);
 }
 
-img {
+img { 
   max-width: 80vw;
   max-height: 80vh;
   border-radius: 20px;
-  background-size: cover;
+  background-size: contain;
   border: 3px solid var(--yellowJs-color);
   box-shadow: 0px 3px 15px rgba(255, 255, 255, 0.4);
-
 }
 
 button {
@@ -57,7 +56,7 @@ footer p {
   position: absolute;
   bottom: 0; 
   width: 100%;
- padding: 0 0 10px 30px;
+  padding: 0 0 10px 30px;
   /* text-align: center; */
   font-size: 2rem;
   color: var(--white-color);
