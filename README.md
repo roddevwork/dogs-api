@@ -2,12 +2,12 @@
 <h3>Hello Visitor!!</h3>
 
 
-# Project A simple page with a dogs api
+# Project: A simple page with a dogs api
 
 
 ## Website:
 
-- [click here](https://roddevwork.github.io/workshop-1-fetch-avocado/index.html)
+- [click here](https://roddevwork.github.io/dogs-api/)
 
 <kbd>
  <img src="src/img/home-page.png" alt="home page" width="200px">
