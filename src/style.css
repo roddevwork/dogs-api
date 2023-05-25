@@ -57,7 +57,8 @@ footer p {
   position: absolute;
   bottom: 0; 
   width: 100%;
-  text-align: center;
+ padding: 0 0 10px 30px;
+  /* text-align: center; */
   font-size: 2rem;
   color: var(--white-color);
 }
