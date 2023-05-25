@@ -31,7 +31,7 @@ h1 {
 
 img {
   max-width: 80%;
- max-height: 80vh;
+  max-height: 80vh;
   border-radius: 20px;
   background-size: cover;
   border: 3px solid var(--yellowJs-color);
@@ -50,8 +50,6 @@ button {
 
 button:hover {
   transform: scale(1.5);
-  background-color: #f7df1e;
-  color: var(--black-color);
 }
 
 footer p {

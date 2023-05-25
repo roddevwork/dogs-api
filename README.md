@@ -19,9 +19,9 @@
 
 -A single page api fetch with responsive website design
 
--api : https://thedogapi.com/
+-api: https://thedogapi.com/
 
-- Using fetch() with async-await
+-Using fetch() with async-await
 
 -Using CSS 
 
@@ -39,4 +39,4 @@
 
 ## Author:
 
-- RM
+-RM
