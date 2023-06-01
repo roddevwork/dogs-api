@@ -29,11 +29,24 @@ h1 {
   color: var(--yellowJs-color);
 }
 
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  text-align: center;
+}
+
+.container picture{
+  width: 75vw;
+  max-width: 900px;
+  min-width: 320px;
+}
+
 img { 
-  max-width: 80vw;
-  max-height: 80vh;
+  width: 100%;
   border-radius: 20px;
-  background-size: contain;
   border: 3px solid var(--yellowJs-color);
   box-shadow: 0px 3px 15px rgba(255, 255, 255, 0.4);
 }
@@ -52,21 +65,18 @@ button:hover {
   transform: scale(1.5);
 }
 
-footer p {
-  position: absolute;
-  bottom: 0; 
+footer  {
   width: 100%;
-  padding: 0 0 10px 30px;
-  /* text-align: center; */
-  font-size: 2rem;
+  margin-top: 30px;
+  text-align: center;
+  font-size: 1.5rem;
   color: var(--white-color);
 }
 
-.container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 40px;
-  text-align: center;
+
+
+@media screen and (width <= 410px) {
+  img { 
+    width: 250px;
+  }
 }
